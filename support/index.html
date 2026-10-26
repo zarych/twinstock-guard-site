@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>Support — TwinStock Guard</title>
+  <meta name="description" content="Get help with TwinStock Guard. Email support with replies within 1 business day, plus troubleshooting steps for stock sync between Shopify and Etsy.">
+  <link rel="canonical" href="https://zarych.github.io/twinstock-guard-site/support/">
+  <meta name="theme-color" content="#3b3fc4">
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="TwinStock Guard">
+  <meta property="og:title" content="Support — TwinStock Guard">
+  <meta property="og:description" content="Email support with replies within 1 business day, plus troubleshooting steps.">
+  <meta property="og:url" content="https://zarych.github.io/twinstock-guard-site/support/">
+  <meta property="og:image" content="https://zarych.github.io/twinstock-guard-site/assets/og-image.png">
+  <meta property="og:image:alt" content="TwinStock Guard logo and the tagline: inventory-only stock sync that never edits your listings.">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="../" aria-label="TwinStock Guard home">
+        <svg viewBox="0 0 32 32" aria-hidden="true" focusable="false"><rect x="1" y="1" width="30" height="30" rx="8" fill="#3b3fc4"/><rect x="7" y="8" width="8" height="16" rx="2" fill="#ffffff"/><rect x="17" y="8" width="8" height="16" rx="2" fill="#c9cbff"/><path d="M9 21.5h14" stroke="#3b3fc4" stroke-width="2" stroke-linecap="round"/></svg>
+        TwinStock Guard
+      </a>
+      <nav class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="../#how-it-works">How it works</a></li>
+          <li><a href="../#pricing">Pricing</a></li>
+          <li><a href="../#faq">FAQ</a></li>
+          <li><a href="../support/" aria-current="page">Support</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+    <article class="prose">
+      <h1>Support</h1>
+      <p class="lead">We're here to help you keep your stock in sync.</p>
+
+      <div class="callout">
+        <p><strong>Email:</strong> <a class="email" href="mailto:zarych.work@gmail.com">zarych.work@gmail.com</a></p>
+        <p><strong>Response time:</strong> within 1 business day.</p>
+      </div>
+
+      <h2>What to include in your email</h2>
+      <ul>
+        <li>Your Shopify store address (for example, <em>your-store.myshopify.com</em>).</li>
+        <li>The product or Etsy listing involved, and its SKU if it has one.</li>
+        <li>What you expected to happen and what happened instead, with the approximate time.</li>
+        <li>A screenshot of the App screen, if it helps.</li>
+      </ul>
+      <p>Please don't send passwords, API keys or your buyers' personal details. We never need them.</p>
+
+      <h2>Troubleshooting basics</h2>
+
+      <h3>A quantity didn't sync</h3>
+      <ol>
+        <li>Check that the product is linked to an Etsy listing on the matching screen. Items without a match are not synced.</li>
+        <li>Check whether the listing is marked <strong>unsupported</strong>. The App skips listings it can't update without risking other fields, and shows them in the list.</li>
+        <li>Check that your Etsy connection is still active. If Etsy access was revoked or expired, reconnect your shop from the App's settings.</li>
+        <li>Check your plan's SKU limit. Items above the limit aren't synced until you upgrade or unlink other items.</li>
+        <li>Allow a few minutes: Etsy stock is checked every few minutes, so changes made on Etsy can take a short while to appear in Shopify.</li>
+      </ol>
+
+      <h3>Quantities differ between Shopify and Etsy</h3>
+      <p>Open the daily mismatch report in the App. It lists every linked item whose quantities differ and lets you choose which value to apply.</p>
+
+      <h3>A change looks wrong</h3>
+      <p>Open the audit log, find the change, and use <strong>Rollback</strong> to restore the previous quantity. Rollback is available for 30 days after a change.</p>
+
+      <h3>Disconnecting or uninstalling</h3>
+      <p>You can disconnect an Etsy shop from the App's settings or uninstall the App from your Shopify admin at any time. Neither action changes your Etsy listings. To have your data deleted sooner, email us.</p>
+
+      <h2>Privacy and data requests</h2>
+      <p>To access, correct or delete your data, email us from the address linked to your store. See the <a href="../privacy/">Privacy Policy</a> for details.</p>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>The term 'Etsy' is a trademark of Etsy, Inc. This Application uses Etsy's API, but is not endorsed or certified by Etsy.</p>
+      <p>Shopify is a trademark of Shopify Inc.</p>
+      <ul class="footer-links">
+        <li><a href="../privacy/">Privacy</a></li>
+        <li><a href="../terms/">Terms</a></li>
+        <li><a href="../support/" aria-current="page">Support</a></li>
+        <li><a class="email" href="mailto:zarych.work@gmail.com">zarych.work@gmail.com</a></li>
+      </ul>
+      <p>© 2026 zarych</p>
+    </div>
+  </footer>
+</body>
+</html>

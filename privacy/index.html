@@ -1,0 +1,166 @@
+<!doctype html>
+<!--
+  DRAFT — NEEDS OWNER REVIEW.
+  This privacy policy was drafted by an AI assistant from the product decisions in the app repository.
+  It is not legal advice. The owner must review it (ideally with a lawyer) and confirm every statement
+  matches the shipped app before launch.
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>Privacy Policy — TwinStock Guard</title>
+  <meta name="description" content="How TwinStock Guard handles data: Shopify and Etsy inventory data used only to sync stock quantities. No buyer data, no selling or sharing, no AI training.">
+  <link rel="canonical" href="https://zarych.github.io/twinstock-guard-site/privacy/">
+  <meta name="theme-color" content="#3b3fc4">
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="TwinStock Guard">
+  <meta property="og:title" content="Privacy Policy — TwinStock Guard">
+  <meta property="og:description" content="Inventory data used only to sync stock quantities. No buyer data, no selling or sharing, no AI training.">
+  <meta property="og:url" content="https://zarych.github.io/twinstock-guard-site/privacy/">
+  <meta property="og:image" content="https://zarych.github.io/twinstock-guard-site/assets/og-image.png">
+  <meta property="og:image:alt" content="TwinStock Guard logo and the tagline: inventory-only stock sync that never edits your listings.">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="../" aria-label="TwinStock Guard home">
+        <svg viewBox="0 0 32 32" aria-hidden="true" focusable="false"><rect x="1" y="1" width="30" height="30" rx="8" fill="#3b3fc4"/><rect x="7" y="8" width="8" height="16" rx="2" fill="#ffffff"/><rect x="17" y="8" width="8" height="16" rx="2" fill="#c9cbff"/><path d="M9 21.5h14" stroke="#3b3fc4" stroke-width="2" stroke-linecap="round"/></svg>
+        TwinStock Guard
+      </a>
+      <nav class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="../#how-it-works">How it works</a></li>
+          <li><a href="../#pricing">Pricing</a></li>
+          <li><a href="../#faq">FAQ</a></li>
+          <li><a href="../support/">Support</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+    <article class="prose">
+      <h1>Privacy Policy</h1>
+      <p class="meta">Effective date: 26 October 2026</p>
+
+      <p>This policy explains what data TwinStock Guard (“the App”, “we”, “us”) accesses, why, how long it is kept, and the rights you have. The App is provided by zarych (the “Application Developer”). It is a Shopify app that keeps stock quantities in sync between a Shopify store and one or more Etsy shops.</p>
+
+      <div class="callout">
+        <p><strong>In short:</strong> we access product and inventory data so we can keep stock quantities equal. We don't access buyer data, we don't sell or share your data, and we don't use it to train AI or machine-learning models.</p>
+      </div>
+
+      <h2>1. Data we access</h2>
+      <h3>From Shopify (when you install the App)</h3>
+      <ul>
+        <li>Your store's domain and the access token Shopify issues to the App, plus basic account details Shopify provides on install (such as the name and email of the store owner or staff member who installs the App).</li>
+        <li>Product data: product and variant IDs, titles, variant names, SKUs and inventory item IDs, used to match items with your Etsy listings.</li>
+        <li>Inventory data: locations and stock quantities.</li>
+      </ul>
+      <p>The App requests only the Shopify permissions to read products and to read and update inventory. It does not request access to orders or customers.</p>
+
+      <h3>From Etsy (when you connect your Etsy shop via Etsy's OAuth sign-in)</h3>
+      <ul>
+        <li>Your Etsy shop ID and OAuth access and refresh tokens.</li>
+        <li>Listing data: listing IDs, titles, thumbnail images and variation names, shown to you on the matching screen.</li>
+        <li>Listing inventory: products, offerings, SKUs and quantities. Etsy's API requires the full inventory record (including prices) to be sent back when a quantity is updated, so the App reads the existing values only to write them back unchanged.</li>
+      </ul>
+      <p>The App requests only Etsy's listing read and write permissions. It never requests access to receipts, transactions or orders.</p>
+
+      <h3>When you contact us</h3>
+      <p>If you email us, we receive your email address and whatever you include in your message.</p>
+
+      <h3>This website</h3>
+      <p>This website uses no cookies, analytics, advertising or third-party scripts or fonts. It is hosted on GitHub Pages; GitHub may process technical data such as IP addresses to deliver and secure the site, as described in GitHub's own privacy statement.</p>
+
+      <h2>2. Data we do not collect</h2>
+      <ul>
+        <li>No buyer or customer personal information: no names, addresses, emails or phone numbers of your buyers.</li>
+        <li>No orders, receipts or transactions from Etsy or Shopify.</li>
+        <li>No payment card details. Subscription billing is handled entirely by Shopify.</li>
+      </ul>
+
+      <h2>3. How we use data</h2>
+      <p>We use the data above only to:</p>
+      <ul>
+        <li>sync stock quantities between your Shopify store and your Etsy shop(s);</li>
+        <li>match Shopify products to Etsy listings;</li>
+        <li>show the dry-run preview, audit log, rollback and daily mismatch report;</li>
+        <li>enforce your plan's limits; and</li>
+        <li>answer your support requests and send essential service notices.</li>
+      </ul>
+      <p>The App writes only stock quantities. It never changes prices, titles, photos, descriptions, SKUs or variations, and never deletes listings.</p>
+      <p>If we offer optional AI-assisted product-matching suggestions, they will be off by default and used only if you turn them on. Only product titles and variant names would be sent, to a provider that is contractually barred from using them for training.</p>
+
+      <h2>4. No selling, no sharing, no AI training</h2>
+      <ul>
+        <li>We do not sell your data, and we do not share it for advertising or cross-context behavioural advertising.</li>
+        <li>We do not use your data, or any Etsy content, for analytics profiling, advertising, or training AI or machine-learning models.</li>
+      </ul>
+
+      <h2>5. Service providers</h2>
+      <p>We use a small number of providers to run the App, each processing data only on our instructions: a cloud hosting provider and a managed PostgreSQL database provider. Shopify and Etsy receive data from the App only as needed to read and update inventory through their APIs.</p>
+
+      <h2>6. Retention and deletion</h2>
+      <ul>
+        <li><strong>Audit log snapshots</strong> (before and after values of each quantity change) are kept for 30 days so you can roll changes back, then deleted automatically. Rollback is available only within that window.</li>
+        <li><strong>Listing data</strong> is cached only as long as needed to run the sync, and is refreshed rather than displayed when it is more than 6 hours old.</li>
+        <li><strong>Disconnecting an Etsy shop</strong> deletes that shop's tokens and listing data from the App.</li>
+        <li><strong>Uninstalling the App</strong> stops syncing immediately. Your store's data is deleted when Shopify sends its data-deletion request (normally 48 hours after uninstall), and in any case within 30 days.</li>
+        <li><strong>On request:</strong> email us and we will delete your data within 30 days, unless we must keep something to meet a legal obligation.</li>
+      </ul>
+      <p>Disconnecting or uninstalling never changes or deletes your Etsy listings.</p>
+
+      <h2>7. Security</h2>
+      <p>Data is sent over encrypted connections (HTTPS). Etsy access tokens are encrypted at rest, access to production systems is restricted, and secrets are never written to logs.</p>
+
+      <h2>8. Your rights (GDPR, UK GDPR, CCPA/CPRA and similar laws)</h2>
+      <p>Depending on where you live, you may have the right to:</p>
+      <ul>
+        <li>know and access the personal data we hold about you, and receive a copy in a portable format;</li>
+        <li>correct inaccurate data;</li>
+        <li>have your data deleted;</li>
+        <li>restrict or object to certain processing;</li>
+        <li>opt out of the “sale” or “sharing” of personal information (we do neither); and</li>
+        <li>not be discriminated against for exercising these rights.</li>
+      </ul>
+      <p>Where the GDPR applies, we process data to perform our contract with you (providing the App) and for our legitimate interest in keeping the service secure and reliable. You may also complain to your local data protection authority.</p>
+      <p>To exercise any right, email <a class="email" href="mailto:zarych.work@gmail.com">zarych.work@gmail.com</a>. We respond within 30 days. We also act on the privacy requests Shopify forwards to us on behalf of merchants and their customers.</p>
+
+      <h2>9. International transfers</h2>
+      <p>Our providers may process data in countries other than yours. Where required, we rely on appropriate safeguards such as the European Commission's Standard Contractual Clauses.</p>
+
+      <h2>10. Children</h2>
+      <p>The App is a business tool for merchants and is not directed at children.</p>
+
+      <h2>11. Changes to this policy</h2>
+      <p>We will post any changes on this page and update the effective date. For material changes, we will notify you in the App or by email, and may ask you to accept the updated policy before syncing continues.</p>
+
+      <h2>12. Contact</h2>
+      <p>zarych — <a class="email" href="mailto:zarych.work@gmail.com">zarych.work@gmail.com</a></p>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>The term 'Etsy' is a trademark of Etsy, Inc. This Application uses Etsy's API, but is not endorsed or certified by Etsy.</p>
+      <p>Shopify is a trademark of Shopify Inc.</p>
+      <ul class="footer-links">
+        <li><a href="../privacy/" aria-current="page">Privacy</a></li>
+        <li><a href="../terms/">Terms</a></li>
+        <li><a href="../support/">Support</a></li>
+        <li><a class="email" href="mailto:zarych.work@gmail.com">zarych.work@gmail.com</a></li>
+      </ul>
+      <p>© 2026 zarych</p>
+    </div>
+  </footer>
+</body>
+</html>

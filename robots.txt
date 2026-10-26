@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zarych.github.io/twinstock-guard-site/sitemap.xml
